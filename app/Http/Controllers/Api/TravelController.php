@@ -37,10 +37,10 @@ class TravelController extends Controller
     {
         $travel = Travel::find($id);
         return $travel;
-        // response()->json([
-        // 'travel' => $travel
-        // ])
-        // ->setStatusCode(Response::HTTP_OK, Response::$statusTexts[Response::HTTP_OK]);
+        response()->json([
+        'travel' => $travel
+        ])
+        ->setStatusCode(Response::HTTP_OK, Response::$statusTexts[Response::HTTP_OK]);
     }
 
 
