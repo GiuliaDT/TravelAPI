@@ -83,7 +83,7 @@ class TravelController extends Controller
         }
 
         if ($request->has('attendees')) {
-            $query->where('attendees', 'LIKE', '%' . $request->attendees . '%');
+            $query->where('attendees', '=',  $request->attendees);
         }
         $travel = $query->paginate(10);
         return response()->json([
