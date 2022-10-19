@@ -39,7 +39,7 @@
                         <h1 class="text-white font-weight-bold">Your Favorite Place is Yet To Be Discovered</h1>
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <a class="btn btn-primary btn-xl" href="https://frontendrestapi.herokuapp.com/">Go To Travel Manager</a>
+                        <a class="btn btn-primary btn-xl" href="http://travel.webok.it/public/api/travels">Go To Travel Manager</a>
                     </div>
                 </div>
             </div>
